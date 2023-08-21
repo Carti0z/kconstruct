@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en"dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurenco Constructions</title>
+    <!-----------------Laurenco Construction Logo------------------------->
+	<link rel="shortcut icon" href="Static/Img/logo/logo.png">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="Static/Css/stylesheet.css">
+    <!-- aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font-awesome / boostrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"rel="stylesheet"/>
+    <!-- Google font cdn link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Boostrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- rating link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+</head>
+<body onload="slider()">
+    <!------------------------Larenco Construction Nav---------------------->     
+      <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="Static/Img/logo/logo.png" alt="" width="150" height="74" class="d-inline-block align-text-top">
+          </a>      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-text-right">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Asset/About.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Asset/construction.html">Construction</a></li>
+                  <li><a class="dropdown-item" href="Asset/workspace.html">Workspace</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Asset/About.html">Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Asset/Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!------------------------Nav bar end--------------------->
+
+      <!-----------------------Background Image------------------------------->
+      <div class="banner">
+        <div class="slider">
+            <img src="Static/Img/bg2.jpg" id="slideImg">
+        </div>
+        <div class="overlay">
+             <div class="content">
+                <h1 class="fw-bold">BUILD YOUR DREAM</h1>
+                <h3 class="build">We Build, We Innovate, We Redesign, We Restructure.....</h3>
+             </div>
+             </div>
+        </div>
+        <!--------------------------Background image ends-------------------------->
+
+        <!----------------------------------------Already have an idea-------------------------->
+        <div class="container-fluid ps-5 "  id="Idea">
+          <div class="row d-flex justify-content-between">
+          <div class="col-lg-6 col-md-6 col-sm-12 m-3 mx-0" >
+              <h3 class="text" id="have">Already have an idea!</h3>
+              <p class="text" id="want">And want to know wheater it is possible to implement it?</p>
+              </div>
+          <!-- Second col -->
+          <div class="col-lg-3 col-md-6 col-sm-12 m-3 mx-0">
+            <a class="btn btn-outline-dark btn-white" href="Asset/construction.html" role="button">See New Projects</a>
+            </div>
+          </div>
+        </div>
+          <!---------------------------------------An Idea Ends----------------------------------->
+        
+    <!----------------------------------What we Offer to Our Clients ------------------------------->
+    <div class="container-fluid ps-5 px-4">
+      <div class="h3 text-center m-4" id="text">WHAT WE OFFER TO OUR CLIENTS</div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" id="card2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <span class="material-symbols-outlined">
+                  group
+                  </span>
+                  Professional Team
+                </h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, maxime quis!</p>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card" id="card2">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <span class="material-symbols-outlined">
+                      contact_support
+                      </span>                    
+                    24/7 Support
+                  </h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, adipisci praesentium.</p>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" id="card2">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="material-symbols-outlined">
+                      price_check
+                      </span>
+                      Affordable Price
+                    </h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus beatae tempore.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" id="card2">
+                  <div class="card-body">
+                    <h5 class="card-title"><span class="material-symbols-outlined">
+                      engineering
+                      </span>
+                      Construction
+                    </h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, maxime quis!</p>
+                  </div>
+                </div>
+              </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card" id="card2">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <span class="material-symbols-outlined">
+                          location_city
+                          </span>
+                        Building
+                      </h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, adipisci praesentium.</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" id="card2">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <span class="material-symbols-outlined">
+                          construction
+                          </span>
+                          Engineering
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus beatae tempore.</p>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+      </div>
+
+      <!------------------------------------All kinds of Structure------------------------------>
+      <!-- <div class="container-fluid p-5 d-flex justify-content-end">
+        <div class="row">
+          <div class="col-lg-6 col-md-4 col-sm-12 text-justify">
+            <h4 class="text fw-bold">Providing All Kinds of Construction Services</h4><hr>
+            <h6 class="text fw-bold">Our construction company has been founded 10 years ago, at the very peak of the building frenzy in the US</h6>
+            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dignissimos ex quod exercitationem. Esse possimus consequatur qui, reprehenderit fugit sequi ab a hic voluptas aspernatur exercitationem id ipsum laudantium saepe quam nulla deserunt, ipsa minus.</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque adipisci maxime inventore, quos ea quisquam distinctio qui consequuntur ipsam quis ipsum facere vel quibusdam nesciunt voluptate exercitationem quae?</p>
+
+          </div>
+          <div class="col-lg-5 col-md-4">
+            <img src="Static/Img/trac.jpg" class="col-sm-12" alt="Laurenco_construct">
+          </div>
+        </div>
+      </div> -->
+      
+      <!-----------------------------RAting------------------------------------->
+      <div class="container-fluid wrapper p-5">
+      <div class="card">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Technology</div>
+      </div>
+      <div class="card js">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Planning</div>
+      </div>
+	  
+	     <div class="card node">
+		<div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Management</div>
+      </div>
+	  
+      <div class="card react">
+        <div class="circle">
+          <div class="bar"></div>
+          <div class="box"><span></span></div>
+        </div>
+        <div class="text">Design</div>
+      </div>
+    </div>
+    <!--------------------------------------Raring ends--------------------------- -->
+
+    <!-- About us section -->
+    <br>
+    <div class="about-section">
+      <div class="inner-container">
+        <h1>Laurenco Construction</h1>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+        </p>
+        <div class="skills">
+          <span>C.E.O</span>
+          <span>Civil Engineer</span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+<br>
+    
+
+
+      <!------------------------------------Structure end------------------------------>
+    
+      <!-----------------------------------------Gallery--------------------------------->
+    <p class="heading">Our Recent Projects</p>
+      <div class="gallery-image">
+        <div class="img-box">
+          <img src="Static/Img/site.jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Library</p>
+              <p class="opacity-low">Architect Design</p>
+            </div>
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="Static/Img/site.webp" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Night Sky</p>
+              <p class="opacity-low">Cinematic</p>
+            </div>
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="Static/Img/site1.jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Tea Talk</p>
+              <p class="opacity-low">Composite</p>
+            </div>
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="Static/Img/site2.jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Road</p>
+              <p class="opacity-low">Landscape</p>
+            </div>
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="Static/Img/site3.jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Sea</p>
+              <p class="opacity-low">Cityscape</p>
+            </div>
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="Static/Img/sitw.jpg" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <p>Vintage</p>
+              <p class="opacity-low">Cinematic</p>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <!---------------------------------------------Gallery end------------------------------->
+
+
+      <!---------------------------------------Years on the market ----------------------------------->
+      <div class="container-fluid justify-content-center text-center">
+        <div class="row">
+          <div class="col align-items-center p-5 bg-dark text-white">
+            <span class="material-symbols-outlined">
+              business_center
+              </span>
+            <h5 class="text fw-bold"id="years">120</h5>
+            <p class="text"id="the">Years on the market</p>
+          </div>
+          <div class="col align-items-center p-5 text-white"id="unit">
+            <span class="material-symbols-outlined">
+              monitoring
+              </span>
+            <h5 class="text fw-bold" id="years">95</h5>
+            <p class="text">Unit Engineering</p>
+          </div>
+          <div class="col align-items-center p-5 text-white" id="Employees">
+            <span class="material-symbols-outlined">
+              explore
+              </span>
+            <h5 class="text fw-bold"id="years">180</h5>
+            <p class="text">Employees of the company</p>
+          </div>
+          <div class="col align-items-center p-5 text-white" id="Execute">
+            <span class="material-symbols-outlined">
+              diversity_3
+              </span>
+            <h5 class="text fw-bold"id="years">120</h5>
+            <p class="text">Execute Contract</p>
+          </div>
+        </div>
+      </div>
+      <!------------------------------Years on the market ends------------------->
+
+      <!--------------------------our creative teams--------------------------->
+      <div class="container-fluid  ps-5 p-5">
+        <div class="container">
+        <h3 class="text-center fw-bold">OUR <span id="creat">CREATIVE TEAM</span></h3>
+        <p class="text-center">A wonderful serenity has taken possession of my entire soul, <br>
+          these sweet mo alone, and feel the charm of existence in this spot.</p>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Static/Img/Profile/ceo.jpg">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Michele Miller</h3>
+                <h4 class="title">C.E.O</h4>
+              </div>
+              <ul class="social">
+                <li><a href="#" aria-hidden="true"> <i class="bi bi-facebook"></i><a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-google"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Static/Img/pass3.jpg">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Patricia Knott</h3>
+                <h4 class="title">Civil Engineer</h4>
+              </div>
+              <ul class="social">
+                <li><a href="#" aria-hidden="true"> <i class="bi bi-facebook"></i><a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-google"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Static/Img/pass2.jpg">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Justin Ramos</h3>
+                <h4 class="title">Site Manager</h4>
+              </div>
+              <ul class="social">
+                <li><a href="#" aria-hidden="true"> <i class="bi bi-facebook"></i><a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-google"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="Static/Img/pass.png">
+              </div>
+              <div class="team-content">
+                <h3 class="name">Goerge Williams</h3>
+                <h4 class="title">Engineer</h4>
+              </div>
+              <ul class="social">
+                <li><a href="#" aria-hidden="true"> <i class="bi bi-facebook"></i><a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-google"></i></a></li>
+                <li><a href="#"aria-hidden="true"><i class="bi bi-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!----------------------------Our creative team ends ----------------------------->
+
+    <!----------------------------------Our testimony section------------------------------->
+    <div class="testimonials-section">
+      <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+      <input type="radio" name="slider" title="slide5" class="slider__nav"/>
+    <div class="slider__inner bg-black text-white">
+      <div class="slider__contents">
+        <quote>&rdquo;</quote>
+        <p class="slider__txt text-white" >We love you guys. It's easy to order, we get shipments quick and my rep solves tough problems the right way. We get answers that work.</p>
+        <h2 class="slider__caption text-danger">Rhonda | NylonCraft</h2>
+      </div>
+      <div class="slider__contents">
+        <quote>&rdquo;</quote>
+        <p class="slider__txt text-white">You all bend over backwards to get it done. Inside sales and the Account Managers are great! It's your service...you all know that it's not just about taking orders it's about service. Why do we choose you guys - your people, your prices, you're quick and you have a ton of technical knowledge.</p>
+        <h2 class="slider__caption text-danger">Jared | Rexam</h2>
+      </div>
+      <div class="slider__contents">
+        <quote>&rdquo;</quote>
+        <p class="slider__txt text-white">It's the long-term relationship we have with Proheat that keeps me calling you guys. I trust you, you're quick, and everybody I've ever spoken to there are all great people. Our CEO, Bill, talks about building relationships. That's exactly what Proheat does, and I couldn't be happier.</p>
+        <h2 class="slider__caption text-danger">Chris | C&M Fine Pack</h2>
+      </div>
+      <div class="slider__contents">
+        <quote>&rdquo;</quote>
+        <p class="slider__txt text-white">You answer my questions, always takes care of problems, and I never have a hassle.</p>
+        <h2 class="slider__caption text-danger">Rex | LNP Engineering Plastics</h2>
+      </div>
+      <div class="slider__contents">
+        <quote>&rdquo;</quote>
+        <p class="slider__txt text-white">Proheat's staff are all so friendly and everybody goes above and beyond. Everyone is courteous, everything is quick and you get us what we need. I have to shop around for everything and we ALWAYS come back to Proheat.</p>
+        <h2 class="slider__caption text-danger">Darlene | Russel Stover</h2>
+      </div>
+    </div>
+  </div>
+  <!------------------------------testimony end------------------------------------->
+
+
+  <!-----------------------------footer section start------------------------------------>
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<a href="#index.html"><img src="Static/Img/logo/logo.png" alt="" class="img-fluid logo-footer"></a>
+                      <!-- <div class="footer-about">
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+                      </div> -->
+
+					</div>
+					<div class="col-md-3">
+						<div class="useful-link">
+							<h2>Useful Links</h2>
+							<img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+							<div class="use-links">
+								<li><a href="index.html"id="link">Home</a></li>
+								<li><a href="Asset/About.html"id="link">About</a></li>
+								<li><a href="gallery.html"id="link">Projects</a></li>
+								<li><a href="contact.html"id="link">Blog</a></li>
+                <li><a href="contact.html"id="link">Contact Us</a></li>
+							</div>
+						</div>
+
+					</div>
+                    <div class="col-md-3">
+                        <div class="social-links">
+							<h2>Follow Us</h2>
+							<img src="./assets/images/about/home_line.png" alt="">
+							<div class="social-icons">
+								<li><a href=""id="link"><i class="bi bi-facebook"></i>Facebook</a></li>
+								<li><a href=""id="link"><i class="bi bi-instagram"></i>Instagram</a></li>
+								<li><a href=""id="link"><i class="bi bi-linkedin"></i>Linkedin</a></li>
+							</div>
+						</div>
+                    
+
+                    </div>
+					<div class="col-md-3">
+						<div class="address">
+							<h2>Address</h2>
+							<img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+							<div class="address-links">
+								<li class="address1"><i class="bi bi-house-door"></i>Kolathur ramankulam-
+									Malappuram Dt 
+								   Kerala 679338</li>
+								   <li><a href=""id="link"><i class="bi bi-phone"></i>+01 095452303</a></li>
+								   <li><a href=""id="link"><i class="bi bi-envelope"></i>@Laurenco_construct.com</a></li>
+							</div>
+						</div>
+					</div>
+                  
+				</div>
+			</div>
+
+		</footer>
+		<!-- footer section end -->
+		<!-- footer copy right section start -->
+		<section id="copy-right">
+			<div class="copy-right-sec"><i class="bi bi-c-circle"></i>  
+				copy-right of <a href="#" id="lau">Laurenco Construction</a>
+			</div>
+		</section>
+		<!--------------------------------footer copy right section end------------------------------>
+
+ 
+
+
+ <!-- Custom JS -->
+ <script src="Static/Js/rating.js"></script>
+ <script src="Static/Js/bg Animation.js"></script>
+ <!-- aos link -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+<!-- Boostrap CDN Link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
